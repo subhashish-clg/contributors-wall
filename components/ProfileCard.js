@@ -21,7 +21,7 @@ const ProfileCard = (props) => {
         onClick={() => setIsOpen(true)}
       >
         <p className=" text-white text-2xl font-bold mix-blend-lighten m-auto ">
-          {props.name[0].toUpperCase()}
+          {props.name[0]}
         </p>
       </button>
       <p className="block text-center text-2xl font-bold ">{props.name}</p>
@@ -38,7 +38,7 @@ const ProfileCard = (props) => {
             className=" w-20 h-20 rounded-full flex "
           >
             <p className="text-white text-2xl font-bold mix-blend-lighten m-auto ">
-              {typeof props.name[0]}
+              { props.name[0]}
             </p>
           </div>
           <p className="text-xl font-bold">{props.name}</p>
