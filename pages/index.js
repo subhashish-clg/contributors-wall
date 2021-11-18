@@ -13,7 +13,7 @@ export default function IndexPage() {
       <p className="text-center">
         Find out how to get your name on the wall&nbsp;
         <a
-          href="/#"
+          href="https://github.com/subhashish-clg/contributors-wall"
           className="text-blue-400 underline focus:text-blue-600 hover:text-blue-600"
         >
           here.

@@ -5,7 +5,8 @@ module.exports = {
       test: /\.csv$/i,
       loader: "csv-loader",
       options: {
-        header: true
+        header: true,
+        skipEmptyLines: true
       }
     });
 

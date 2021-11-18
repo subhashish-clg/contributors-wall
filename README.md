@@ -1,21 +1,25 @@
-# Hello World example
+# Contributor wall
+A git repo/project that encourages beginner to learn `git` and `github`.
 
-This example shows the most basic idea behind Next. We have 2 pages: `pages/index.js` and `pages/about.js`. The former responds to `/` requests and the latter to `/about`. Using `next/link` you can add hyperlinks between them with universal routing capabilities. The `day` directory shows that you can have subdirectories.
+## Adding your name to the wall 
 
-## Deploy your own
+### Using the online vs code editor
 
-Deploy the example using [Vercel](https://vercel.com):
+1. Go the repo [page](https://github.com/subhashish-clg/contributors-wall) 
+1. Press <kbd>.</kbd> on your keyboard. This will open a `vs code` like editor in your browser.
+1. Open the `data.csv` file and enter your name and bio and create a pull request.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/hello-world)
+### By cloning the repo
 
-## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+1. Fork this repository,
+1. Open a terminal and enter the following command:
 
 ```bash
-npx create-next-app --example hello-world hello-world-app
-# or
-yarn create next-app --example hello-world hello-world-app
-```
+ git clone <forked-repo-link>
+ ```
+1. The above command will create a copy on your local system.
+1.  Open the `data.csv` file and enter your name and bio and create a pull request.[Learn how to make a pull request from here](https://opensource.com/article/19/7/create-pull-request-github)
 
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+After you pull requested is submitted you should see your name on the website.(Assuming nothing went wrong)
