@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5bb06177-e7b9-4b43-a835-47af3e1e03cf/deploy-status)](https://app.netlify.com/sites/contributors-wall/deploys)
+
 # Contributor wall
 A git repo/project that encourages beginner to learn `git` and `github`.
 
